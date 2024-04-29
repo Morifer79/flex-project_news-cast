@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>NewsCast</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container flex-container">
+        <ul class="news-linter-list">
+          <li>
+            <svg class="icon">
+              <use href="./img/sprite.svg#icon-weather" />
+            </svg>
+            <span>15<sup>°C</sup></span> New York
+          </li>
+          <li>
+            <svg class="icon">
+              <use href="./img/sprite.svg#icon-clock" />
+            </svg>
+            Wednesday, 10 January 2021
+          </li>
+          <li>Breaking News</li>
+          <li><span>Indonesia says located black box recorders from crashed plane</span></li>
+        </ul>
+        <ul class="social-list">
+          <li class="social-item facebook">
+            <a class="social-link" href="">
+              <svg class="social-img">
+                <use href="./img/sprite.svg#icon-facebook" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-item twitter">
+            <a class="social-link" href="">
+              <svg class="social-img">
+                <use href="./img/sprite.svg#icon-twitter" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-item instagram">
+            <a class="social-link" href="">
+              <svg class="social-img">
+                <use href="./img/sprite.svg#icon-instagram" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-item youtube">
+            <a class="social-link" href="">
+              <svg class="social-img">
+                <use href="./img/sprite.svg#icon-youtube" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+
+        <section class="info-panel flex-container">
+          <div class="logo">
+            <a href="./index.html">
+              <img src="./img/Logo.png" alt="logo" class="logo" />
+            </a>
+          </div>
+          <div class="banner flex-container">
+            <div class="text-wrapper">
+              <h2 class="white-text">
+                Best Selling <span>BLOG</span> and <span>MAGAZINE</span>
+              </h2>
+              <h2 class="white-text">Theme of All Time</h2>
+              <h2 class="red-text">Experience the change!</h2>
+            </div>
+            <button type="button" class="btn-banner">PURCHASE NOW</button>
+          </div>
+        </section>
+
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="#"><h2>Home</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>International</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Sports</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Opinion</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Business</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Youth</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Entertainment</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#"><h2>Lifestyle</h2></a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <h2>
+                  Pages
+                  <svg class="icon-chevron">
+                    <use href="./img/sprite.svg#icon-chevron-small-down" />
+                  </svg>
+                </h2>
+              </a>
+            </li>
+            <li class="menu-item">
+              <label for="search"></label>
+              <input
+                type="text"
+                id="search"
+                placeholder="Search for"
+                class="search search-input"
+                autocomplete="off"
+              />
+              <button type="submit" class="search search-btn">
+                <svg class="search-icon">
+                  <use href="./img/sprite.svg#icon-mag-glass" />
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="hero">
+          <div class="card-block h1">
+            <span class="label label-color">Business</span>
+            <span class="sup-text big">Craig Bator - 27 Dec 2020
+              <h2 class="title big">
+                After all is said and done, more is done
+              </h2>
+            </span>
+          </div>
+          <div class="secondary-block">
+            <div class="secondary-top-block">
+              <div class="card-block h2">
+                <span class="label label-color">Business</span>
+                <span class="sup-text">Craig Bator - 27 Dec 2020
+                  <h2 class="title sm">
+                    They're back! Kennedy Darling named to return to
+                  </h2>
+                </span>
+              </div>
+              <div class="card-block h3">
+                <span class="label label-color">Business</span>
+                <span class="sup-text">Craig Bator - 27 Dec 2020
+                  <h2 class="title sm">
+                    Swiss authorities say Uber drivers should
+                  </h2>
+                </span>
+              </div>
+            </div>
+            <div class="secondary-bottom-block">
+              <div class="card-block h4">
+                <span class="label label-color">Business</span>
+                <span class="sup-text big">Craig Bator - 27 Dec 2020
+                <h2 class="title mid">
+                  Tourism in Dubai is booming by international tourist
+                </h2>
+              </span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="observation">
+          <div class="main-block">
+            <div class="nav-block flex-container border-line">
+              <h2 class="nav-title">Don't Miss</h2>
+              <ul class="nav-list">
+                <li>All</li>
+                <li>Lifestyle</li>
+                <li>Vogue</li>
+                <li>Health & Fitness</li>
+                <li>Travel</li>
+                <li>Gadgets</li>
+                <li>World</li>
+                <li>More</li>
+              </ul>
+            </div>
+            <div class="observation-card dont-miss">
+              <div class="observation-hero">
+                <div class="thumb">
+                  <img class="big-img" src="./img/a1.jpg" alt="img" />
+                  <span class="label label-color">Business</span>
+                </div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title imp">
+                  Now Is the Time to Think About Your Small Business Success
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+              </div>
+              <ul class="observation-list">
+                <li>
+                    <img src="./img/a2.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Penn's expanding political climate gears up fo 2020
+                        election
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/a3.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Things to Look For in a Financial Trading Platform
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/a4.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        The only thing that overcomes hard luck is hard work
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/a5.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Success is not a good teacher failure makes you humble
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/a6.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        At Value-Focused Hotels, the Free Breakfast Gets Bigger
+                      </h2>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="side-block">
+              <ul class="side-nav-list flex-container side-border-line">
+                <li>Recent</li>
+                <li>Trending</li>
+                <li>Most Views</li>
+              </ul>
+              <ul class="side-list">
+                <li>
+                  <img src="./img/aa1.jpg" alt="img" />
+                  <div>
+                    <span class="sup-text">Craig Bator -
+                      <span class="accent">27 Dec 2020</span>
+                    </span>
+                    <h2 class="title">Gluten-Free Almond Cake with Berries</h2>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/aa2.jpg" alt="img" />
+                  <div>
+                    <span class="sup-text">Craig Bator -
+                      <span class="accent">27 Dec 2020</span>
+                    </span>
+                    <h2 class="title">
+                      Enjoy My Favourite Molten Chocolate Cake
+                    </h2>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/aa3.jpg" alt="img" />
+                  <div>
+                    <span class="sup-text">Craig Bator -
+                      <span class="accent">27 Dec 2020</span>
+                    </span>
+                    <h2 class="title">
+                      They back return to you Kennedy Darlings
+                    </h2>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/aa4.jpg" alt="img" />
+                  <div>
+                    <span class="sup-text">Craig Bator -
+                      <span class="accent">27 Dec 2020</span>
+                    </span>
+                    <h2 class="title">The art of racing with speed Motor GP</h2>
+                  </div>
+                </li>
+                <li>
+                  <img src="./img/aa5.jpg" alt="img" />
+                  <div>
+                    <span class="sup-text">Craig Bator -
+                      <span class="accent">27 Dec 2020</span>
+                    </span>
+                    <h2 class="title">Home team takes the win - NBA 2020</h2>
+                  </div>
+                </li>
+              </ul>
+          </div>
+        </section>
+
+        <section class="entertainment">
+          <div class="nav-block flex-container border-line">
+            <h2 class="nav-title">Entertainment</h2>
+            <div>
+              <svg class="icon-chevron">
+                <use href="./img/sprite.svg#icon-chevron-small-left" />
+              </svg>
+              <svg class="icon-chevron">
+                <use href="./img/sprite.svg#icon-chevron-small-right" />
+              </svg>
+            </div>
+          </div>
+          <div class="entertainment-hero">
+            <span class="label">Hollywood</span>
+            <div>
+              <h2>
+                Amanda Seyfried became 'really obsessed' with ghost stories
+              </h2>
+              <div class="border-line"></div>
+              <p>
+                Hollywood actress Amanda Seyfried has recalled the time when she
+                became obsessed with ghost stories
+              </p>
+            </div>
+          </div>
+          <ul class="entertainment-list">
+            <li class="observation-hero">
+              <div class="thumb">
+                <img src="./img/aaa2.jpg" alt="img" />
+                <span class="label label-color">Hollywood</span>
+              </div>
+              <div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title">
+                  Penn's expanding political climate gears up fo 2020 election
+                </h2>
+              </div>
+            </li>
+            <li class="observation-hero">
+              <div class="thumb">
+                <img src="./img/aaa3.jpg" alt="img" />
+                <span class="label label-color">Hollywood</span>
+              </div>
+              <div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                  </span>
+                <h2 class="title">
+                  Penn's expanding political climate gears up fo 2020 election
+                </h2>
+              </div>
+            </li>
+            <li class="observation-hero">
+              <div class="thumb">
+                <img src="./img/aaa4.jpg" alt="img" />
+                <span class="label label-color">Hollywood</span>
+              </div>
+              <div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title">
+                  Penn's expanding political climate gears up fo 2020 election
+                </h2>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="observation">
+          <div class="main-block">
+            <div class="nav-block flex-container border-line">
+              <h2 class="nav-title">Sport</h2>
+              <ul class="nav-list">
+                <li>All</li>
+                <li>Football</li>
+                <li>Cricket</li>
+                <li>Basketball</li>
+                <li>Badminton</li>
+                <li>Boxing</li>
+                <li>Esports</li>
+                <li id="arrow">
+                  <div>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-left" />
+                    </svg>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-right" />
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="observation-card sport">
+              <div class="observation-hero">
+                <div class="thumb">
+                  <img class="big-img" src="./img/s1.jpg" alt="img" />
+                  <span class="label label-color sports">Cricket</span>
+                </div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title imp">
+                  Solskjaer dismisses Klopp comments on Man Utd penalty record
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+              </div>
+              <ul class="observation-list">
+                <li>
+                    <img src="./img/s2.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        South Africa hammer injury-hit Sri Lanka Player
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/s3.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Southee-lead New Zealand have Pakistan on the ropes
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/s4.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        The only thing that overcomes hard luck is hard work
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/s5.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Success is not a good teacher failure makes you humble
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/s6.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Rahane-led India bury ghosts of Adelaide at Melbourne
+                      </h2>
+                    </div>
+                  </li>
+              </ul>
+            </div>
+
+            <div class="nav-block flex-container border-line">
+              <h2 class="nav-title">Life Style</h2>
+              <ul class="nav-list">
+                <li>All</li>
+                <li>Travel</li>
+                <li>Recipes</li>
+                <li>Health & Fitness</li>
+                <li>Music</li>
+                <li id="arrow">
+                  <div>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-left" />
+                    </svg>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-right" />
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="observation-card life-style">
+              <div class="observation-hero">
+                <div class="thumb">
+                  <img class="big-img" src="./img/ls1.jpg" alt="img" />
+                  <span class="label label-color ls1">Health & Fitness</span>
+                </div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title24">
+                  ‘Institutional delivery vital for reducing maternal and neonatal deaths’
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+                <ul class="article-list">
+                  <li>
+                    <img src="./img/ls3.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Best things you can do on a solo mountain climb
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/ls4.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        Creative decorationg with houseplants
+                      </h2>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="observation-hero">
+                <div class="thumb">
+                  <img class="big-img" src="./img/ls2.jpg" alt="img" />
+                  <span class="label label-color ls2">Health & Fitness</span>
+                </div>
+                <span class="sup-text">Craig Bator - 
+                  <span class="accent">27 Dec 2020</span>
+                </span>
+                <h2 class="title24">
+                  Being self-controlled child may lead to healthier middle-age
+                </h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Faucibus lobortis augue condimentum maecenas. Metus at in
+                  fames vitae posuere ut vel vulputate....
+                </p>
+                <ul class="article-list">
+                  <li>
+                    <img src="./img/ls5.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        How to use basic design principles your home
+                      </h2>
+                    </div>
+                  </li>
+                  <li>
+                    <img src="./img/ls6.jpg" alt="img" />
+                    <div>
+                      <span class="sup-text">Craig Bator -
+                        <span class="accent">27 Dec 2020</span>
+                      </span>
+                      <h2 class="title">
+                        How to burn calories with pleasant activites
+                      </h2>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="banner flex-container">
+              <div class="text-wrapper">
+                <h2 class="white-text">
+                  Best Selling <span>BLOG</span> and <span>MAGAZINE</span>
+                </h2>
+                <h2 class="white-text">Theme of All Time</h2>
+                <h2 class="red-text">Experience the change!</h2>
+              </div>
+              <button type="button" class="btn-banner">PURCHASE NOW</button>
+            </div>
+
+            <div class="nav-block flex-container border-line">
+              <h2 class="nav-title">Video</h2>
+              <ul class="nav-list">
+                <li>All</li>
+                <li>Travel</li>
+                <li>Recipes</li>
+                <li>Health & Fitness</li>
+                <li>Music</li>
+                <li id="arrow">
+                  <div>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-left" />
+                    </svg>
+                    <svg class="icon-chevron">
+                      <use href="./img/sprite.svg#icon-chevron-small-right" />
+                    </svg>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="video-youtube">
+              <div class="article-block">
+                <div class="thumb">
+                  <iframe
+                    class="iframe-wrapper"
+                    src="https://www.youtube.com/embed/7qlv7qTK0Kk"
+                    title="Esport"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                  </iframe>
+                  <span class="label label-color">Esport</span>
+                </div>
+              </div>
+              <div class="video-box">
+                <div class="article-block">
+                  <div class="thumb">
+                    <iframe
+                      class="iframe-preview-wrapper"
+                      src="https://www.youtube.com/embed/wCPX4XYJkn8"
+                      title="Gothic 2 - Retrospective Review (2023)"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen>
+                    </iframe>
+                    <span class="label label-color-first">Esport</span>
+                  </div>
+                  <span class="sup-text">Craig Bator - 
+                    <span class="accent">27 Dec 2020</span>
+                  </span>
+                  <h2 class="title imp">
+                    At Value-Focused Hotels, the Free Breakfast Gets Bigger
+                  </h2>
+                </div>
+                <div class="article-block">
+                  <div class="thumb">
+                    <iframe
+                      class="iframe-preview-wrapper"
+                      src="https://www.youtube.com/embed/u9qPDvMZEPw"
+                      title="Gothic - Retrospective Review (2022)"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                    <span class="label label-color-second">Esport</span>
+                  </div>
+                  <span class="sup-text">Craig Bator - 
+                    <span class="accent">27 Dec 2020</span>
+                  </span>
+                  <h2 class="title imp">
+                    Failure is the condiment that gives success its flavor
+                  </h2>
+                </div>
+                <div class="article-block">
+                  <div class="thumb">
+                    <iframe
+                      class="iframe-preview-wrapper"
+                      src="https://www.youtube.com/embed/lrL81t7yYYo"
+                      title="Arcania: Gothic 4 Review"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      allowfullscreen
+                    ></iframe>
+                    <span class="label label-color-third">Esport</span>
+                  </div>
+                  <span class="sup-text">Craig Bator - 
+                    <span class="accent">27 Dec 2020</span>
+                  </span>
+                  <h2 class="title imp">
+                    Les nouveaux maillots du Real Madrid pour la saison
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="side-block basic-block">
+              <h3 class="side-title flex-container side-border-line">Stay Connected</h3>
+              <ul class="social-connect-list">
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-facebook" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Followers</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-instagram" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Followers</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-youtube" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Subscribe</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-twitter" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Followers</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-be" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Followers</span>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a class="social-link" href="">
+                  <div>
+                    <svg class="social-img">
+                      <use href="./img/sprite.svg#icon-br" />
+                    </svg>
+                  </div>
+                  <div class="desc">
+                    <span>15000</span>
+                    <span>Followers</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="side-img">
+              <img src="./img/sc1.jpg" alt="ad" />
+              <span>Ad</span>
+            </div>
+
+            <div class="form-wrapper">
+              <form action="" method="post">
+                <h2>Get Latest Updates</h2>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Your email address"
+                />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+            <h3 class="side-title flex-container side-border-line">Categories</h3>
+            <ul class="categories-list">
+              <li>
+                <h3>Life Style</h3>
+                <span>50</span>
+              </li>
+              <li>
+                <h3>World</h3>
+                <span>55</span>
+              </li>
+              <li>
+                <h3>Foods</h3>
+                <span>40</span>
+              </li>
+              <li>
+                <h3>Tachnology</h3>
+                <span>10</span>
+              </li>
+              <li>
+                <h3>Sports</h3>
+                <span>42</span>
+              </li>
+              <li>
+                <h3>Football</h3>
+                <span>5</span>
+              </li>
+              <li>
+                <h3>Cricket</h3>
+                <span>67</span>
+              </li>
+              <li>
+                <h3>Covid 19</h3>
+                <span>12</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+
+      <section class="swipper">
+        <ul>
+          <li><img src="./img/fu1.jpg" alt="img" /></li>
+          <li><img src="./img/fu2.jpg" alt="img" /></li>
+          <li class="follow-item">
+            <img class="follow-img" src="./img/fu3.jpg" alt="img" />
+            <p class="follow-data">
+              <svg class="social-img-inst">
+                <use href="./img/sprite.svg#icon-instagram" />
+              </svg>
+              <span>Follow us</span>
+            </p>
+          </li>
+          <li><img src="./img/fu4.jpg" alt="img" /></li>
+          <li><img src="./img/fu5.jpg" alt="img" /></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="container footer-block">
+        <div class="main-footer-block">
+          <a href="./index.html">
+            <img class="logo" src="./img/logo-footer.png" alt="logo"/>
+          </a>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque,
+            pellentesque dictum posuere id diam rutrum.
+          </p>
+          <ul class="social-list">
+            <li class="social-item facebook">
+              <a class="social-link" href="">
+                <svg class="social-img">
+                  <use href="./img/sprite.svg#icon-facebook" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item twitter">
+              <a class="social-link" href="">
+                <svg class="social-img">
+                  <use href="./img/sprite.svg#icon-twitter" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item instagram">
+              <a class="social-link" href="">
+                <svg class="social-img">
+                  <use href="./img/sprite.svg#icon-instagram" />
+                </svg>
+              </a>
+            </li>
+            <li class="social-item youtube">
+              <a class="social-link" href="">
+                <svg class="social-img">
+                  <use href="./img/sprite.svg#icon-youtube" />
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="photo-gallery">
+          <div>
+            <div class="border-line">
+              <h3 class="photo-gallery-title">Photo gallery</h3>
+            </div>
+            <ul class="photo-gallery-list">
+              <li><img src="./img/g1.jpg" alt="img" /></li>
+              <li><img src="./img/g2.jpg" alt="img" /></li>
+              <li><img src="./img/g3.jpg" alt="img" /></li>
+              <li><img src="./img/g4.jpg" alt="img" /></li>
+              <li><img src="./img/g5.jpg" alt="img" /></li>
+              <li><img src="./img/g6.jpg" alt="img" /></li>
+            </ul>
+          </div>
+        </div>
+        <div class="tags">
+          <div class="border-line">
+            <h3 class="photo-gallery-title">Tags</h3>
+          </div>
+          <ul class="tags-list">
+            <li><span>Football</span></li>
+            <li><span>Cricket</span></li>
+            <li><span>Covid 19</span></li>
+            <li><span>Life Style</span></li>
+            <li><span>Tranding News</span></li>
+            <li><span>Technology</span></li>
+            <li><span>Travel</span></li>
+          </ul>
+        </div>
+        <div class="stay-in-touch">
+          <div class="border-line">
+            <h3 class="photo-gallery-title">Stay In Touch</h3>
+          </div>
+          <p>
+            To be updated with all the latest news, offers and special
+            annoucements.
+          </p>
+          <form action="" method="post">
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Your email address"
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

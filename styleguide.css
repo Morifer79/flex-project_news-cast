@@ -1,0 +1,100 @@
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("./fonts/SofiaProRegular.woff"),
+    url("./fonts/SofiaProRegular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: normal;
+  src: local("./fonts/SofiaProRegular.woff2"),
+    url("./fonts/SofiaProRegular.woff2") format("woff2");
+}
+
+:root {
+  --main-gray: #393939;
+  --main-red: #f65050;
+  --main-white: #ffffff;
+
+  --red: #fe4a51;
+  --text-black: rgba(57, 57, 57, 0.6);
+  --violet: #a56cbd;
+  --green: #2ecc71;
+  --blue: #0088ff;
+  --nut: #997c00;
+  --light-blue: #49cfe8;
+  --dark-blue: #4c60f5;
+  --pink: #ffb8b8;
+
+  --tile-facebook: #4281ff;
+  --tile-youtube: #ef5043;
+  --tile-behance: #1b7bfd;
+  --tile-instagram: #c23785;
+  --tile-twitter: #42c0f5;
+  --tile-dribble: #f7679d;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: var(--main-gray);
+  background-color: var(--main-bg);
+  font-family: "Sofia Pro";
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.container {
+  padding-inline: 10px;
+  margin: 0 auto;
+  inline-size: 320px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    inline-size: 768px;
+    padding-inline: 20px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    inline-size: 1440px;
+    padding-inline: 135px;
+  }
+}
